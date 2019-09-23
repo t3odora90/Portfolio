@@ -1,0 +1,252 @@
+body {
+   min-width: 580px;
+}
+
+.banner {
+	background-image: url('images/blur.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-width: 580px;
+	height: 150%;
+	position: relative;
+}
+
+.header-box {
+	height: 11vh;
+	line-height: 11vh;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid rgba(221, 221, 221, 0.25);
+	padding: 0;
+}
+
+.header-box .logo-box h1 {
+	color: white;
+	font-size: 5.3vh;
+	font-family: 'Open Sans', sans-serif;
+	padding: 15px 0 0;
+}
+
+.header-box .ul-box ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+.header-box .ul-box ul li {
+	color: white;
+	font-size: 14px;
+	font-family: 'Be Vietnam', sans-serif;
+	font-weight: 550;	
+	padding: 5px 25px 0;
+	cursor: pointer;
+}
+
+.header-box .ul-box ul li:hover {
+	color: orange;
+}
+
+.header-box .ul-box ul .home-li {
+	color: orange;
+}
+
+.header-box .ul-box ul li.app-icons {
+	padding: 5px 15px 0;
+	font-size: 17px;
+}
+
+section .we-design-box {
+	text-align: center;
+	margin-top: 11%;
+}
+
+.we-design-box .we-design-h3 {
+	color: white;
+    font-size: 4.9vw;
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.we-design-buttons {
+	margin-top: 45px;
+}
+
+button {
+    border-radius: 3px;
+   	outline: none;
+}
+
+.orange-button {
+    padding: 12px 35px;
+	background: #feac00;
+	border: 1px solid #feac00;
+	margin-right: 4px;
+}
+
+.we-design-buttons .contact-us {
+	padding: 11px 35px;
+	background-color: transparent;
+	border: 2px solid white;
+	color: white;
+	margin-left: 4px;
+}
+
+.we-design-buttons .contact-us:hover {
+	background: #feac00;
+	border: 2px solid #feac00;
+	color: black;
+	transition: 0.5s ease-in-out
+}
+
+.we-design-box .results {
+	margin: 10% 5%;
+	max-width: 100%;
+}
+
+.results .results-col {
+	display: flex;
+	justify-content: center;
+	height: 50px;
+	line-height: 42px;
+}
+
+.results .results-col h5 {
+	color: white;
+	padding: 5px;
+	font-size: 30px;
+	font-weight: bold;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+.results .results-col p {
+	color: white;
+	padding: 5px;
+	font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.design-build {
+	padding: 7% 3%;
+}
+
+.design-build h3 {
+	text-transform: capitalize;
+	font-size: 40px;
+    font-weight: 650;
+}
+
+.design-build p {
+	color: #555;
+	font-size: 17px;
+	font-weight: 450;
+	padding: 20px 0;
+}
+
+.black-button:hover {
+	background: black;
+	border: 1px solid black;
+	color: #feac00;
+	transition: 0.5s ease-in-out
+}
+
+.orange-color {
+	color: #feac00;
+}
+
+
+.we-change {
+	background: #f7f7f7;
+}
+
+.we-change .working-box {
+	padding: 8% 2%;
+}
+
+.we-change .working-box img {
+	width: 100%;
+	border-radius: 3px;
+}
+
+.working-box .working-text h4 {
+	font-size: 25px;
+}
+
+.working-box .working-text h4:hover {
+	color: #feac00;
+}
+
+.working-box .working-text p {
+	color: #777;
+	font-size: 16px;
+	margin: 20px 0;
+}
+
+.about-change-box {
+	border-top: 1px solid #ddd;
+	padding: 5% 2%;
+}
+
+.about-change-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-change-content span {
+	font-size: 22px;
+}
+
+.about-change-content .about-change-text {
+	margin-left: 15px;
+	color: #777;
+}
+
+.about-change-content .about-change-text h4 {
+	font-size: 19px;
+	color: black;
+	text-transform: capitalize;
+}
+
+
+
+
+
+
+@media all and (max-width: 768px) {
+	.results .results-col h5 {
+		font-size: 24px;
+	}
+	.results .results-col p {
+		font-size: 18px;
+	}
+	.results .results-col {
+		line-height: 34px;
+	}
+	.working-box .working-text {
+		margin: 20px 0;
+	}
+	.working-box .working-text h4 {
+		font-size: 20px;
+	}		
+	.working-box .working-text p {
+		font-size: 14px;
+		margin: 15px 0;
+	}
+	.about-change-content {
+		display: block;
+		text-align: center;
+	}
+	.about-change-content .about-change-text h4 {
+		font-size: 18px;
+	}
+	.about-change-content .about-change-text p{
+		font-size: 14px; 	
+	}
+}
+
+
+@media all and (max-width: 992px) {
+	.we-change .working-box img {
+		margin-top: 50px;
+	}
+}
