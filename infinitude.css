@@ -8,7 +8,6 @@ body {
 	background-repeat: no-repeat;
 	min-width: 580px;
 	height: 150%;
-	position: relative;
 }
 
 .header-box {
@@ -207,8 +206,51 @@ button {
 	text-transform: capitalize;
 }
 
+.we-provide {
+	background: url(images/pic6.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	min-width: 600px;
+	height: 85%;
+}
 
+.we-provide-box .we-provide-left h2 {
+	color: white;
+	text-transform: capitalize;
+	font-weight: 700;
+}
 
+.we-provide-box .we-provide-left p {
+	color: white;
+}
+
+.we-provide-box .we-provide-left img {
+	width: 100%;
+	border-radius: 3px;
+}
+
+.we-provide-box .we-provide-right .left-icon {
+	color: white;
+	font-size: 25px;
+}
+
+.we-provide-box .we-provide-right .row {
+	padding: 6% 1%;
+}
+
+.we-provide-box .we-provide-right h4 {
+	color: white;
+	font-size: 18px;
+}
+
+.we-provide-box .we-provide-right p {
+	color: white;
+	font-size: 15px;
+}
+
+.we-provide .container {
+	padding: 6% 0;
+}
 
 
 
@@ -248,5 +290,8 @@ button {
 @media all and (max-width: 992px) {
 	.we-change .working-box img {
 		margin-top: 50px;
+	}
+	.we-provide-box .we-provide-left img {
+		width: 60%;
 	}
 }
