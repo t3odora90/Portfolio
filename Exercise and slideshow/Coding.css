@@ -28,6 +28,10 @@
 	margin-top: 4px;
 }
 
+.animal-img:hover {
+	cursor: pointer;
+}
+
 .animals .inputs-box label {
 	margin-left: 10px;
 	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
