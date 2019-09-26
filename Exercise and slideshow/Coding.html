@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript exercises - Brinzas Teodora</title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="Portfolio, javascript, css, html, jQuery, Bootstrap" />
+	<meta name="author" content="Brinzas Teodora" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="Coding.css">
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="portfolio row">
+			<div class="col-lg-12">
+				<a href="https://fontmeme.com/netflix-font/"><img src="https://fontmeme.com/permalink/190920/9b08cbe3ae20363b0ab5083c6ecb074d.png" alt="netflix-font" border="0"></a>
+			</div>
+		</div>
+		<div class="animals row">
+			<div class="animals-text col-xl-12">
+				<p>Click on any image from below. The inputs will have informations about the animal from the image and the image will increase its size. On second click, informations dissapear, image resets its size. The button "Reset all" resets all the inputs and all the images.</p>
+			</div>
+			<div class="animals-box col-xl-12">
+				<img src="images/dog.jpg" data-animal="Dog" data-name="Lucky" data-age="3 months" class="animal-img">
+				<img src="images/cat.jpg" data-animal="Cat" data-name="Sasha" data-age="2 months" class="animal-img">
+				<img src="images/rabbit.jpg" data-animal="Rabbit" data-name="Jackie" data-age="1 year" class="animal-img">
+			</div>
+			<div class="inputs-box col-xl-12">
+				<label for="animal">Animal:</label>
+				<input type="text" name="animal">
+				<label for="name">Name:</label>
+				<input type="text" name="name">
+				<label for="age">Age:</label>
+				<input type="text" name="age">
+				<button type="button" class="btn">Reset all</button>
+			</div>
+		</div>
+
+		<div class="slider">
+			<p>Slide through images <span><i class="fas fa-images"></i></span></p>
+			<div class="beaches-box">
+				<img src="images/beach1.jpg">
+				<img src="images/beach2.jpg">
+				<img src="images/beach3.jpg">
+			</div>
+			<div class="buttons-box">
+				<button class="btn btn-danger previous">Previous</button>
+				<button class="btn btn-danger next">Next</button>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://kit.fontawesome.com/94f1fd585b.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="Coding.js"></script>
+</body>
+</html>
