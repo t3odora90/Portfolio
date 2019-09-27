@@ -81,6 +81,7 @@ body {
 	text-transform: uppercase;	
 	height: 27px;
 	line-height: 27px;
+	padding-left: 2px;
 }
 
 .header-box .ul-box ul #submenu a:hover {
@@ -188,7 +189,7 @@ button {
 }
 
 .we-change {
-	background: #f7f7f7;
+	background: #F4E7DD;
 }
 
 .we-change .working-box {
@@ -216,7 +217,7 @@ button {
 }
 
 .about-change-box {
-	border-top: 1px solid #ddd;
+	border-top: 1px solid #989898;
 	padding: 5% 2%;
 }
 
@@ -307,7 +308,7 @@ button {
 
 .stunning-box .stunning-pics img {
 	width: 100%;
-	border: 6px solid #f0f0f1;
+	border: 6px solid #F4E7DD;
 	border-radius: 3px;
 	height: auto;
 }
@@ -320,7 +321,7 @@ button {
 }
 
 .appointment {
-	background: #f7f7f7;
+	background: #F4E7DD;
 }
 
 .appointment-box .appointment-form {
@@ -337,12 +338,11 @@ button {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 14px;
-	color: #555;
 }
 
 .appointment-box .appointment-form input {
 	width: 80%;
-	border: 1px solid #ced4da;
+	border: 1px solid lightgray;
 	border-radius: 3px;
 	padding: 1%;
 }
@@ -417,10 +417,29 @@ button {
     border-radius: 50%;
 }
 
+.subscribe {
+	padding: 3% 0;
+}
 
+.subscribe h3 {
+	margin: 3% 0;
+}
 
-/* ************SLIDESHOW IN SITE !!!!! ***************/
+.subscribe .form-box .subscribe-input {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	height: 45px;
+    line-height: 45px;
+    outline: none;
+    letter-spacing: 2px;
+    width: 100%;
+    padding: 0 4px;
+}
 
+.subscribe .form-box .wider-button {
+	padding: 10px;
+	width: 100%;
+}
 
 
 
@@ -443,6 +462,9 @@ button {
 	.testimonials .testimonials-box {
 		padding: 10px;
 		margin-bottom: 15px;
+	}
+	.subscribe .form-box .wider-button {
+		margin-top: 15px;
 	}
 }
 
