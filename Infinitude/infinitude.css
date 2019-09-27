@@ -33,26 +33,59 @@ body {
 	list-style: none;
 }
 
-.header-box .ul-box ul li {
+.header-box .ul-box ul li {	
+	padding: 5px 25px 0;
+}
+
+.header-box .ul-box ul li a {
+	text-decoration: none;
 	color: white;
 	font-size: 14px;
 	font-family: 'Be Vietnam', sans-serif;
 	font-weight: 550;	
-	padding: 5px 25px 0;
-	cursor: pointer;
 }
 
-.header-box .ul-box ul li:hover {
-	color: orange;
+.header-box .ul-box ul li a:hover {
+	color: #feac00;
 }
 
-.header-box .ul-box ul .home-li {
-	color: orange;
+.header-box .ul-box ul .home-li a {
+	color: #feac00;
 }
 
 .header-box .ul-box ul li.app-icons {
 	padding: 5px 15px 0;
 	font-size: 17px;
+}
+
+.header-box .ul-box ul #item {
+	position: relative;
+}
+
+.header-box .ul-box ul #submenu {
+	display: none;
+	position: absolute;
+	top: 53px;
+	left: 20px;
+	background-color: white;
+	box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+	min-width: 120px;
+}
+
+.header-box .ul-box ul #submenu a {
+	display: block;
+	color: black;
+	font-size: 14px;
+	font-family: 'Be Vietnam', sans-serif;
+	font-weight: 550;
+	text-transform: uppercase;	
+	height: 27px;
+	line-height: 27px;
+}
+
+.header-box .ul-box ul #submenu a:hover {
+	background-color: #f7f7f7;
+	color: #feac00;
 }
 
 section .we-design-box {
