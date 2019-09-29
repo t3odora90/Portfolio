@@ -15,7 +15,7 @@
 }
 
 .animals .animals-text p {
-	font-size: 17px;
+	font-size: 18px;
 	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 	text-align: justify;
 }
@@ -35,11 +35,13 @@
 .animals .inputs-box label {
 	margin-left: 10px;
 	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	font-size: 17px;
 }
 
 .animals .inputs-box input {
 	border: 2px solid #C16744;
 	border-radius: 3px;
+	background-color: rgba(220, 220, 220, 0.7);
 }
 
 .animals .inputs-box .btn {
@@ -63,7 +65,7 @@
 }
 
 .slider p {
-	font-size: 15px;
+	font-size: 18px;
 	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 }
 
@@ -74,7 +76,7 @@
 
 .slider .beaches-box img {
 	width: 300px;
-	border: 2px solid #C14E44;
+	border: 2px solid #99334E;
 	border-radius: 3px;
 }
 
@@ -83,7 +85,14 @@
 	margin-left: 60px;
 }
 
+.slider .buttons-box .previous {
+	background-color: #99334E;
+	color: white;
+}
+
 .slider .buttons-box .next {
 	width: 80px;
 	margin-left: 5px;
+	background-color: #99334E;
+	color: white;
 }
