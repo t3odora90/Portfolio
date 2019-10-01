@@ -31,6 +31,54 @@ body {
 	text-decoration: none;
 }
 
+.header-box .menu-box {
+	margin-top: 8px;
+}
+
+.header-box .menu-box .menu-icon {
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.header-box .menu-box .menu-icon {
+	position: relative;
+}
+
+.header-box .menu-box .menu-dropdown {
+	display: none;
+	position: absolute;
+	top: 57px;
+	margin-left: -151px;
+	background: rgba(16, 16, 16, 0.85);
+	width: 170px;
+	z-index: 9999;
+}
+
+.menu-box .menu-dropdown ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 12px;
+}
+
+.menu-box .menu-dropdown ul li {
+	font-size: 16px;
+	height: 25px;
+	line-height: 25px;
+	margin-left: 5px;
+}
+
+.menu-box .menu-dropdown ul li a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Be Vietnam', sans-serif;
+	font-weight: 550;
+}
+
+.menu-box .menu-dropdown ul li a:hover {
+	color: #feac00;
+}
+
 .header-box .ul-box ul {
 	display: flex;
 	justify-content: space-between;
@@ -74,6 +122,7 @@ body {
 	background-color: white;
 	box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
 	min-width: 120px;
+	z-index: 9999;
 }
 
 .header-box .ul-box ul #submenu a {
