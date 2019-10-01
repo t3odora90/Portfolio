@@ -1,0 +1,76 @@
+body {
+	background-color: #C2EBD4;
+}
+
+.todo-box {
+	margin: 25px 25px 0;
+}
+
+.todo-box h3 {
+	color: #292163;
+}
+
+.todo-box .fa-check-square {
+	margin-left: 10px;
+}
+
+.todo-box p {
+	margin-left: 5px;
+	font-size: 15px;
+}
+
+.fa-check {
+	margin-right: 5px;
+	color: #292163;
+}
+
+.new-item {
+	background: rgba(220, 220, 220, 0.5);
+	border: 2px solid #39AC88;
+	border-radius: 5px;
+	width: 400px;
+	height: 35px;
+	line-height: 35px;
+}
+
+.new-item:hover {
+	background: #94DBC2;
+}
+
+.new-item:focus {
+	background: #94DBC2;
+}
+
+.todo-items {
+	list-style-type: none;
+	margin-top: 10px;
+}
+
+.list-item {
+	font-size: 17px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.checkBox {
+	width: 15px;
+	height: 14px;
+	margin-right: 15px;
+}
+
+.completed {
+	text-decoration: line-through;
+	color: green;
+}
+
+.delete-item {
+	width: 24px;
+	height: 22px;
+	line-height: 13px;
+	font-size: 16px;
+	margin-left: 12px;
+	border-radius: 4px;
+	outline: none;
+	border: 2px solid;
+	color: gray;
+}
