@@ -3,7 +3,7 @@ body {
 }
 
 .banner {
-	background-image: url('images/blur.jpg');
+	background-image: url('images/banner.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
