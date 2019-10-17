@@ -1,0 +1,108 @@
+body {
+	background-color: #758ED1;
+}
+
+.game-box {
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.game-box .title {
+	text-align: center;
+	margin: 20px auto;
+}
+
+.game-box .placeholder {
+	margin-top: 20px;
+	padding: 0 5px 15px 20px;
+	background-color: white;
+	letter-spacing: 20px;
+	font-size: 45px;
+	text-align: center;
+	display: inline-block;
+	color: #262E73;
+	border-radius: 15px;
+	-webkit-box-shadow: 21px 16px 54px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 21px 16px 54px -8px rgba(0,0,0,0.75);
+	box-shadow: 21px 16px 54px -8px rgba(0,0,0,0.75);
+}
+
+.game-box .letters-box {
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.game-box .letters-box .item {
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px;
+	border: 1px solid #171236;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: #171236;
+	display: inline-block;
+	margin: 1px;
+	border-radius: 50%;
+	width: 35px;
+	text-transform: uppercase;
+}
+
+.game-box .tries-box {
+	margin-top: 20px;
+}
+
+.game-box .tries-box .tries-left {
+	font-size: 35px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.tries {
+	color: green;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.orange {
+	color: 	#FFD700;
+}
+
+.red {
+	color: red;
+}
+
+.cover {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.9);
+	z-index: 1000;
+}
+
+.popover-item {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+}
+
+.popover-item p {
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+.popover-item .btn {
+	padding: 5px 20px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
