@@ -1,13 +1,8 @@
-body {
-   min-width: 580px;
-}
-
 .banner {
 	background-image: url('images/banner.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	min-width: 580px;
 	height: auto;
 }
 
@@ -39,9 +34,6 @@ body {
 	color: white;
 	font-size: 20px;
 	cursor: pointer;
-}
-
-.header-box .menu-box .menu-icon {
 	position: relative;
 }
 
@@ -304,8 +296,11 @@ button {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	min-width: 580px;
 	height: auto;
+}
+
+.we-provide .we-provide-box {
+	margin: 0;
 }
 
 .we-provide-box .we-provide-left h2 {
@@ -434,7 +429,6 @@ button {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	min-width: 580px;
 	height: auto;
 }
 
@@ -657,5 +651,45 @@ footer .container .row {
 	}
 	.testimonials .testimonials-box {
 		box-sizing: border-box;
+	}
+}
+
+@media all and (max-width: 576px) {
+	.header-box .logo-box a {
+		margin-left: 5px;
+	}
+	.header-box .menu-box .menu-icon {
+		margin-right: 15px;
+	}
+	.results .results-col h5 {
+		font-size: 21px;
+	}
+	.results .results-col p {
+		font-size: 15px;
+	}
+	.orange-button {
+		padding: 7px 18px;
+	}
+	.we-design-buttons .contact-us {
+		padding: 7px 18px;
+	}
+}
+
+@media all and (max-width: 415px) {
+	.results .results-col {
+		line-height: 25px;
+	}
+	.results .results-col h5 {
+		font-size: 16px;
+		font-weight: normal;
+	}
+	.results .results-col p {
+		font-size: 11px;
+	}
+	.orange-button {
+		padding: 7px 18px;
+	}
+	.we-design-buttons .contact-us {
+		padding: 7px 18px;
 	}
 }
