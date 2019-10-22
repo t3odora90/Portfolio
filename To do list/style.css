@@ -66,11 +66,24 @@ body {
 .delete-item {
 	width: 24px;
 	height: 22px;
-	line-height: 13px;
-	font-size: 16px;
+	line-height: 10px;
+	font-size: 14px;
 	margin-left: 12px;
-	border-radius: 4px;
+	border-radius: 14px;
 	outline: none;
 	border: 2px solid;
-	color: gray;
+	color: red;
+}
+
+
+@media all and (max-width: 440px) {
+	.todo-box {
+		margin: 25px 5px 0;
+	}
+	.todo-box p {
+		font-size: 14px;
+	}
+	.new-item {
+		width: 300px;
+	}
 }
