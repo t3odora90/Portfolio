@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(images/cover.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.slider {
+	margin-top: 40px;
+	width: 400px;
+	overflow: hidden;
+}
+
+.slider p {
+	color: #672262;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+.slider .beaches-box {
+	display: flex;
+	transition: transform 1s ease-in-out;
+}
+
+.slider .beaches-box img {
+	width: 400px;
+	border: 2px solid #672262;
+	border-radius: 3px;
+}
+
+.slider .buttons-box {
+	display: flex;
+	justify-content: center;
+}
+
+.slider .buttons-box .previous {
+	background-color: #672262;
+	color: white;
+}
+
+.slider .buttons-box .next {
+	width: 85px;
+	margin-left: 4px;
+	background-color: #672262;
+	color: white;
+}
+
+@media all and (max-width: 440px) {
+	.slider {
+		width: 300px;
+	}
+	.slider .beaches-box img {
+		width: 300px;
+	}
+}
